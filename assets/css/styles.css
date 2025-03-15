@@ -946,7 +946,7 @@ div.testimonial-item {
 }
 .testimonial-item .rating {
   unicode-bidi: bidi-override;
-  color: #ff1c64;
+  color: #1ca4ff;
   position: absolute;
   font-size: 4px;
   bottom: 10px;
@@ -955,7 +955,7 @@ div.testimonial-item {
 ol.carousel__dots > li.carousel__dot.is-selected::after {
   width: 15px;
   height: 15px;
-  background-color: #e01b67e1;
+  background-color: #1ca4ff;
   border-color: #e01b6700;
 }
 ol.carousel__dots > li.carousel__dot::after {
@@ -963,7 +963,7 @@ ol.carousel__dots > li.carousel__dot::after {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  border: 3px solid #e01b65;
+  border: 3px solid #1ca4ff;
 }
 button.carousel__button {
   --carousel-button-color: #fff;
@@ -1301,7 +1301,7 @@ ul.container {
 .service-line::after,
 .social__tooltip,
 .social__tooltip::after {
-  background-color: #e01b65;
+  background-color: #1ca4ff;
 }
 .about-content .about-you .value a,
 .about-content .personal-infotitle span,
