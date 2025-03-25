@@ -1325,11 +1325,11 @@ ul.container {
 .single-post:hover .post-content .content-title h5 > a,
 .testimonial-item .quote,
 .testimonial-item .rating {
-  color: #e01b65;
+  color: #c921c0;
 }
 .clickbtn,
 .cursor-outer {
-  border: 2px solid #e01b65;
+  border: 2px solid #6f717c;
 }
 .resume-section .resume-item {
   border-left: 2px solid #e01b65;
