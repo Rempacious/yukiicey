@@ -1001,7 +1001,6 @@ div.funfacts-box {
   position: relative;
   margin: 0;
   font-size: 18px;
-  text-transform: capitalize;
 }
 .portfolio-menu {
   text-align: center;
@@ -1309,11 +1308,7 @@ ul.container {
 .about-content .social-icons li a:hover,
 .about-subtitle span,
 .animated-text h3,
-.contact-section .contact-info .list-info .info-details .info-value,
-.contact-section .contact-info .list-info .info-details .info-value a,
-.contact-section .contact-info .list-info .info-details .info-value a:focus,
-.contact-section .contact-info .list-info .info-details .info-value a:hover,
-.contact-section .contact-info .list-info .info-icon i,
+
 .fixed-block .social-icons a:hover,
 .funfacts-box h3,
 .funfacts-section .funfacts-box h3::after,
@@ -1325,11 +1320,21 @@ ul.container {
 .single-post:hover .post-content .content-title h5 > a,
 .testimonial-item .quote,
 .testimonial-item .rating {
-  color: #c921c0;
+  color: #16bbd8;
 }
+
+.contact-section .contact-info .list-info .info-details .info-value,
+.contact-section .contact-info .list-info .info-details .info-value a,
+.contact-section .contact-info .list-info .info-details .info-value a:focus,
+.contact-section .contact-info .list-info .info-details .info-value a:hover,
+.contact-section .contact-info .list-info .info-icon i {
+  color: #12e0ad;
+}
+
+
 .clickbtn,
 .cursor-outer {
-  border: 2px solid #6f717c;
+  border: 2px solid #912282;
 }
 .resume-section .resume-item {
   border-left: 2px solid #e01b65;

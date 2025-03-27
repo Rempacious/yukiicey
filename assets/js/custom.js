@@ -78,9 +78,6 @@ function LoadThis() {
   // Trigger funfact boxes count on visible
   onVisible(document.querySelector(".funfacts-box"), countFun);
 
-  // Download button
-  document.getElementById("dl-button").onclick = downloadPDF;
-
   // Email me button
   document.getElementById("contact-submit").onclick = mailTo;
 };
@@ -108,7 +105,7 @@ fancybox_items.forEach(item => {
 
   let currentH3 = document.createElement("h3");
   currentH3.className = "title";
-  (item.parentNode.classList.contains("gfx")) ? currentH3.textContent += "GFX" : currentH3.textContent += "Website";
+  (item.parentNode.classList.contains("gfx")) ? currentH3.textContent += "Art" : currentH3.textContent += "Website";
   currentDiv.appendChild(currentH3);
 
   let currentSpan = document.createElement("span");
